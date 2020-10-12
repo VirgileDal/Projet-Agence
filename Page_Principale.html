@@ -10,13 +10,42 @@
             h1 {
             font-family: 'Faster One';font-size: 50px;color: rgb(190,2,2);
         }
-        </style>
+        body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+    </style>
 </head>
 <body>
-    <nav>
-        <a href="Page_Principale.html">Acceuil</a>
+    <nav class="topnav">
+        <a class="active"  href="Page_Principale.html">Acceuil</a></a>
         <a href="Decouvrir.html">Découvrir</a>
         <a href="Reservation.html">Réservation</a>
+        <a href="A_Propos_Et_Contact.html">A propos</a>
         <a href="A_Propos_Et_Contact.html">A propos</a>
         <a href="A_Propos_Et_Contact.html#NC">Nous contacter</a>
         <a href="A_Propos_Et_Contact.html#NC">Service Après-vente</a>
