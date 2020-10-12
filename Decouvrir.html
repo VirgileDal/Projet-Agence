@@ -6,27 +6,88 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <a href="Page_Principale.html">Acceuil</a>
+    <style>
+        body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .topnav {
+    overflow: hidden;
+    background-color: #333;
+    }
+    
+    .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+    
+    .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+    
+    .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+    }
+    </style>
+    </head>
+    <body>
+    <nav class="topnav">
+        <a class="active"  href="Page_Principale.html">Acceuil</a>
         <a href="Decouvrir.html">Découvrir</a>
         <a href="Reservation.html">Réservation</a>
         <a href="A_Propos_Et_Contact.html">A propos</a>
-        <a href="A_Propos_Et_Contact.html">Nous contacter</a>
-        <a href="A_Propos_Et_Contact.html">Service Après-vente</a>
+        <a href="A_Propos_Et_Contact.html#NC">Nous contacter</a>
+        <a href="A_Propos_Et_Contact.html#NC">Service Après-vente</a>
     </nav>
     <h1>Nos Séjours:</h1>
-    <table>
+    <style>
+        #customers {
+          font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        #customers td, #customers th {
+          border: 1px solid #ddd;
+          padding: 8px;
+        }
+        
+        #customers tr:nth-child(even){background-color: #f2f2f2;}
+        
+        #customers tr:hover {background-color: #ddd;}
+        
+        #customers th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color: #4CAF50;
+          color: white;
+        }
+
+        #customers td {
+            color: black;
+        }
+
+        </style>
+    <table id="customers">
         <caption>Offres</caption>
         <tr>
             <th>VILLE</th>
             <th>PRIX</th>
         </tr>
         <tr>
-            <th>Moscou</th>
-            <th>300€</th>
+            <td>Moscou</td>
+            <td>300€</td>
         </tr>
         <tr>
-            <th>Bamako</th>
+            <th>Bamako</td>
             <th>617€</th>
         </tr>
         <tr>
