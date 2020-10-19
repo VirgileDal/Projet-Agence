@@ -1,0 +1,25 @@
+h1 {
+    font-family: 'Faster One';font-size: 50px;color: rgb(245, 9, 9)
+        }
+    h2{font-family: 'Nosifer';font-size: 15px;color: rgb(190,2,2);
+        }
+    body {
+    background-color:rgb(34, 137, 155);        
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+
+ul {
+    list-style-image: url('sqpurple.gif');
+    background: rgb(35,69,86);
+    padding: 10px;
+    list-style-position: outside;
+}
+
+ul li {
+    background: #4caf50;
+    padding: 10px;
+    margin: 10px;
+}
