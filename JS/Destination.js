@@ -1,5 +1,6 @@
 class Destination {
-    constructor (lieu, petit_dej, prix_adulte, nb_adultes, nb_enfants) {
+    constructor (id, lieu, petit_dej, prix_adulte, nb_adultes, nb_enfants) {
+        this.id = id
         this.lieu = lieu;
         this.petit_dej = petit_dej;
         this.prix_adulte = prix_adulte;
