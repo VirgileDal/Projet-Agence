@@ -36,22 +36,27 @@
         <input type="tel" > <br>
         <br>
         Date de départ: <br>
-        <input type="date" > <br>
+        <input type="date" id="depart" required onchange="PrixTolal()"> <br>
         <br>
         Date de retour: <br>
-        <input type="date" > <br>
+        <input type="date" id="arrivee" required onchange="PrixTotal()"> <br>
         <br>
         Nombre d'adultes: <br>
-        <input type="number" > <br>
+        <input type="number" id="adultes" onchange="PrixTotal()"> <br>
         <br>
         Nombre d'enfants: <br>
-        <input type="number" > <br>
+        <input type="number" id="enfants" onchange="PrixTotal()"> <br>
+        <br>
+        Petit Déjeuner: 12€ / personnes <br>
+        <input type="radio" id="ouiPD" name="PetitDejeuner" value="1" checked onchange="PrixTotal()"> OUI
+        <input type="radio" id="nonPD" name="PetitDejeuner" value="0" checked onchange="PrixTotal()"> NON <br>
         <br>
         <input type="radio" name="sexe" checked> HOMME
         <input type="radio" name="sexe" checked> FEMME
         <input type="radio" name="sexe" checked> NON BINAIRE <br>
         <br>
-        <input type="submit">
+        Prix Total: <br>
+        <input type="submit" value="Confirmer" onclick="PrixTotal()">
         <input type="submit" value="Reset">
    </form>
 </body>
