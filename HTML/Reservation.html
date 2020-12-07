@@ -55,7 +55,10 @@
         <input type="radio" name="sexe" checked> FEMME
         <input type="radio" name="sexe" checked> NON BINAIRE <br>
         <br>
-        Prix Total: PrixTolal() <br>
+        Prix total:
+        <template id="CalculPrix"> 
+            <span>{{PrixTot}}</span>
+        </template><br>
         <input type="submit" value="Confirmer">
         <input type="submit" value="Reset">
    </form>

@@ -32,3 +32,5 @@ let zagreb = new destination('Zagreb', 169, '/images/Zagreb.jpg', 21);
 let kampala = new destination('Kampala', 148, '/images/Kampala.jpg', 22);
 let pyongyang= new destination('PyongYang', 510, '/images/Pyongyang.jpg', 23);
 let lalune = new destination('La Lune', 100000, '/images/LaLune.jpg', 24);
+
+Tableau = [moscou, bamako, ajaccio, milan, paris, abidjan, mexico, riodejaneiro, beyrouth, bagdad, lyon, tokyo, pekin, shangai, stalingrad, tchernobyl, auschwitz, athenes, hanoi, guatemala, kiev, zagreb, kampala, pyongyang, lalune]
